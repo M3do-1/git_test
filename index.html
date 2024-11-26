@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <pre>
-        <code>
-            var myArray = ['Apple', 'Banana', 'Cherry'];
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homw</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <pre>
+        <img src="https://picsum.photos/536/354" alt="Random Image">
+            <code>
+                var myArray = ['Apple', 'Banana', 'Cherry'];
+                var myObject = {
+                    apple: 'red',
+                    banana: 'yellow',
+                    cherry: 'green'
+                };
+                console.log(myArray);
+            </code>
+            <h1>resaults: <button onclick="displayme()" id="hi">Clcik me to see the output!</button>
+            </h1>
+        </pre>
+    <h6>Here is some lines of code 2</h6>
+    <script>
+        var myArray = ['Apple', 'Banana', 'Cherry'];
             var myObject = {
                 apple: 'red',
                 banana: 'yellow',
                 cherry: 'green'
-            };  
-        </code>
-    </pre>
+            };
+            // let html = document.getElementsByID('hi').innerHTML;
+            function displayme() {
+            document.getElementById('hi').innerHTML = myArray[0] + " " + myArray[1] + " " + myArray[2];
+            document.getElementById('hi').style.color = "#dadada";
+            document.getElementById('hi').style.background = "transparent";
+            document.getElementById('hi').style.border = "0px solid";
+            }
+
+            </script>
+            
 </body>
 </html>

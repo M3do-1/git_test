@@ -2,7 +2,7 @@
     /* background-color: black; */
 }
 pre {
-    background: #001f2b;
+    background: #000000e4;
     border: 1px solid #ddd;
     border-radius: 9px;
     border-left: 3px solid #fe0000;
@@ -12,9 +12,23 @@ pre {
     font-size: 15px;
     line-height: 1.6;
     margin-bottom: 1.6em;
-    max-width: 24%;
+    max-width: 35%;
     overflow: auto;
     padding: 1em 1.5em;
     display: block;
     word-wrap: break-word;
+}
+
+#hi{
+    color: #002d4fbe;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+img {
+    border-radius: 8px;
+    box-shadow: 0 13px 27px -5px #0086c540, 0 8px 16px -8px #e5e5e540, 0 -6px 16px -6px #e5e5e540;
+    height: auto;
+    max-width: 100%;
 }
