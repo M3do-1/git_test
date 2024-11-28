@@ -1,8 +1,8 @@
-* {
-    /* background-color: black; */
+body {
+    background-color: rgb(124, 122, 122);
 }
 pre {
-    background: #000000e4;
+    background: #4747479e;
     border: 1px solid #ddd;
     border-radius: 9px;
     border-left: 3px solid #fe0000;
@@ -14,9 +14,22 @@ pre {
     margin-bottom: 1.6em;
     max-width: 35%;
     overflow: auto;
-    padding: 1em 1.5em;
+    padding: 3.5em 1.5em;
     display: block;
     word-wrap: break-word;
+
+    /* Centering the <pre> Element */
+    position: absolute; /* Position it relative to the nearest positioned ancestor */
+    top: 50%; /* Place it 50% from the top */
+    left: 50%; /* Place it 50% from the left */
+    transform: translate(-50%, -50%); /* Adjust to truly center the element */
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-weight: bold;
 }
 
 #hi{
@@ -31,4 +44,68 @@ img {
     box-shadow: 0 13px 27px -5px #0086c540, 0 8px 16px -8px #e5e5e540, 0 -6px 16px -6px #e5e5e540;
     height: auto;
     max-width: 100%;
+    transform: translate(-5%, -0%); /* Adjust to truly center the element */
+}
+
+.oyoplayer {
+    box-sizing                  : border-box;
+    width                       : 500px;
+    min-width                   : 272px;
+    max-width                   : 500px;
+    border-radius               : 8px;
+    box-shadow                  : 8px 8px 16px #4747479e;
+    /* background-color            : #4747479e; */
+    padding                     : 0px 8px 8px;
+    margin-bottom               : 8px;
+    font-family                 : 'Inter', 'Roboto', Arial, Verdana, Helvetica, sans-serif;
+    font-size                   : 10pt;
+    user-select                 : none;
+    overflow                    : hidden;
+    /* Center the audio player */
+    position: relative;  /* Position relative to the nearest positioned ancestor */
+    top: 50%;  /* Place it 50% from the top */
+    left: 50%;  /* Place it 50% from the left */
+    transform: translate(-50%, 800px);  /* Adjust position to center it */
+}
+audio {
+    font-size                   : 53.33px;
+    font-weight                 : 900;
+    outline-style		: none;
+    width			: 484px;
+    height			: 40px;
+    background-color		: #4747479e;
+}
+audio::-webkit-media-controls {
+    overflow                    : hidden !important;
+}
+audio::-webkit-media-controls-enclosure {
+    background-color: #4747479e;
+    display: flex;
+    width: calc(100% + 44px);
+    margin-left: auto;
+    border-radius: 0px;
+}
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider {
+    filter			: invert(100%);
+}
+.oyotagbox {
+    overflow                    : hidden;
+    border-radius		: 8px;
+    margin                      : 8px 0px 0px;
+    box-sizing                  : border-box;
+}
+.oyotag {
+    display                     : inline-block;
+    color			: white;
+    white-space			: nowrap;
+    box-sizing                  : border-box;
+    font-size                   : 13.33px;
+    font-weight                 : 700;
+    height                      : 15.33px;
+    padding                     : 0px;
 }

@@ -8,7 +8,7 @@
     </head>
     <body>
         <pre>
-        <img src="https://picsum.photos/536/354" alt="Random Image">
+        <img id="img" alt="Random Image">
             <code>
                 var myArray = ['Apple', 'Banana', 'Cherry'];
                 var myObject = {
@@ -20,24 +20,12 @@
             </code>
             <h1>resaults: <button onclick="displayme()" id="hi">Clcik me to see the output!</button>
             </h1>
+            <!-- <audio controls autoplay muted>
+                <source src="./Mr_wobot.mp3" type="audio/mpeg">
+            </audio> -->
         </pre>
-    <h6>Here is some lines of code 2</h6>
-    <script>
-        var myArray = ['Apple', 'Banana', 'Cherry'];
-            var myObject = {
-                apple: 'red',
-                banana: 'yellow',
-                cherry: 'green'
-            };
-            // let html = document.getElementsByID('hi').innerHTML;
-            function displayme() {
-            document.getElementById('hi').innerHTML = myArray[0] + " " + myArray[1] + " " + myArray[2];
-            document.getElementById('hi').style.color = "#dadada";
-            document.getElementById('hi').style.background = "transparent";
-            document.getElementById('hi').style.border = "0px solid";
-            }
-
-            </script>
-            
+        <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+        <script src="oyoplayer.js"></script>
 </body>
 </html>
