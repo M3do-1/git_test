@@ -2,7 +2,7 @@ body {
     background-color: rgb(124, 122, 122);
 }
 pre {
-    background: #4747479e;
+    background: #39445c;
     border: 1px solid #ddd;
     border-radius: 9px;
     border-left: 3px solid #fe0000;
@@ -33,7 +33,7 @@ h1 {
 }
 
 #hi{
-    color: #002d4fbe;
+    color: #9cc5e4d3;
     font-size: 25px;
     text-align: center;
 }
@@ -53,8 +53,8 @@ img {
     min-width                   : 272px;
     max-width                   : 500px;
     border-radius               : 8px;
-    box-shadow                  : 8px 8px 16px #4747479e;
-    /* background-color            : #4747479e; */
+    box-shadow                  : 8px 8px 16px #9cc5e4d3;
+    background-color            : #39445c;
     padding                     : 0px 8px 8px;
     margin-bottom               : 8px;
     font-family                 : 'Inter', 'Roboto', Arial, Verdana, Helvetica, sans-serif;
@@ -73,13 +73,13 @@ audio {
     outline-style		: none;
     width			: 484px;
     height			: 40px;
-    background-color		: #4747479e;
+    background-color		: #39445c;
 }
 audio::-webkit-media-controls {
     overflow                    : hidden !important;
 }
 audio::-webkit-media-controls-enclosure {
-    background-color: #4747479e;
+    background-color: #39445c;
     display: flex;
     width: calc(100% + 44px);
     margin-left: auto;
